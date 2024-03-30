@@ -1,0 +1,5 @@
+streamlit
+google-generativeai
+poetry
+openai
+langchain

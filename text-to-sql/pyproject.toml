@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "text-to-sql"
+version = "0.1.0"
+description = ""
+authors = ["rajat <srajatshrivastava@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.32.2"
+google-generativeai = "^0.4.1"
+openai = "^1.14.3"
+langchain = "^0.1.13"
+langchain-core = "^0.1.36"
+langchain-openai = "^0.1.1"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
